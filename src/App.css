@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 45px;
+}
+
+#profile__img{
+  margin-top: 56px;
+  margin-bottom: 24px;
+  height: 143px;
+}
+
+
+h1{
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+  line-height: 30px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #101828;
+
+}
+
+#twitter, #btn__zuri, #books, #book__python, #pitch, #book__design{
+color: #101828;
+font-weight: 500;
+font-size: 18px;
+background-color: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+padding: 24px 450px;
+text-align: center;
+margin: 10px;
+width: 259px;
+  height: 28px;
+}
+
+
+.icons{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 50px;
+  margin-bottom: 26px;
 }
 
-.App-link {
-  color: #61dafb;
+.git{
+  margin-left: 26px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 112px 52px;
+
+}
+h3{
+  color: #667085;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+@media(max-width: 840px){
+  #twitter, #btn__zuri, #books, #book__python, #pitch, #book__design{
+    padding: 24px 134px;
+    font-size: 15px;
   }
-  to {
-    transform: rotate(360deg);
+  
+#profile__img{
+ height: 90px;
+
+}
+
+  .footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3{
+    margin: 18px 0;
+  }
+}
+
+@media(max-width: 520px){
+  #twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+    padding: 24px 82px;
+}
+
+
+}
+
+@media(max-width: 420px){
+  #twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+    padding: 20px 35px;
+}
+
+h3{
+  width: 197px;
+}
+}
+
+@media(max-width: 390px){
+  #twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+    padding: 18px 18px;
+
   }
 }
