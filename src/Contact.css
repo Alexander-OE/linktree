@@ -125,8 +125,239 @@ h5 {
   margin-bottom: 100px;
   background-color: #1570ef;
   border: 1px solid #1570ef;
-  color: #e2e7f0;
+  color: #FFFFFF;
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
+}
+
+#btn__submit:hover {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    position: relative;
+    left: 14rem;
+  }
+
+  .text {
+    position: relative;
+    left: 14rem;
+  }
+
+  #email {
+    position: relative;
+    left: 14rem;
+  }
+
+  .group {
+    position: relative;
+    left: 14rem;
+  }
+
+  #btn__submit {
+    position: relative;
+    left: 14rem;
+  }
+}
+
+@media (max-width: 912px) {
+  h2 {
+    position: relative;
+    left: 8rem;
+  }
+
+  p {
+    padding-right: 4rem;
+  }
+
+  .text {
+    position: relative;
+    left: 8rem;
+  }
+
+  #email {
+    position: relative;
+    left: 8rem;
+  }
+
+  .group {
+    position: relative;
+    left: 8rem;
+  }
+
+  #btn__submit {
+    position: relative;
+    left: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    position: relative;
+    left: 3rem;
+  }
+
+  p {
+    padding-right: 5rem;
+  }
+
+  .text {
+    position: relative;
+    left: 3rem;
+    flex-wrap: wrap;
+  }
+
+  #email {
+    position: relative;
+    left: 3rem;
+  }
+
+  .group {
+    position: relative;
+    left: 3rem;
+  }
+
+  #btn__submit {
+    position: relative;
+    left: 3rem;
+    padding: 12px 250px;
+  }
+}
+
+@media (max-width: 650px) {
+  h2 {
+    position: relative;
+    left: 3rem;
+  }
+
+  p {
+    position: relative;
+    left: 3rem;
+    width: 500px;
+  }
+
+  .text {
+    position: relative;
+    left: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .first__input {
+    margin-bottom: 1rem;
+    width: 450px;
+  }
+
+  .last__input{
+    width: 450px;
+  }
+
+  #last__name {
+    padding-left: 4px;
+    
+  }
+  #email {
+    position: relative;
+    left: 3rem;
+  }
+
+  
+.email__input {
+  width: 450px;
+}
+
+
+#message {
+  padding: 12px;
+ width: 450px;
+}
+
+  .group {
+    position: relative;
+    left: 3rem;
+  }
+
+  #btn__submit {
+    position: relative;
+    left: 3rem;
+    padding: 12px 190px;
+  }
+}
+
+
+@media (max-width: 416px) {
+  h2 {
+    position: relative;
+    left: 1.6rem;
+  }
+
+  p {
+    position: relative;
+    left: 0rem;
+    width: 400px;
+  }
+
+  .text {
+    position: relative;
+    left: 2.2rem;
+    flex-wrap: wrap;
+  }
+
+  .first__input {
+    margin-bottom: 1rem;
+    width: 280px;
+  font-size: 16px;
+
+  }
+
+  .last__input{
+    width: 280px;
+  font-size: 16px;
+
+  }
+
+  #last__name {
+    padding-left: 4px;
+    
+  }
+  #email {
+    position: relative;
+    left: 2.4rem;
+  }
+
+  
+.email__input {
+  width: 280px;
+  font-size: 16px;
+}
+
+
+#message {
+  padding: 12px;
+ width: 280px;
+ font-size: 16px;
+}
+
+  .group {
+    position: relative;
+    left: 2.4rem;
+  }
+
+.check__box{
+  margin-left: 2.4rem;
+}
+
+  #btn__submit {
+    position: relative;
+    left: 3rem;
+    padding: 12px 98px;
+  }
 }
