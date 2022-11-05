@@ -284,7 +284,11 @@ h5 {
 .email__input {
   width: 450px;
 }
-
+.error-text.invalid{
+  position: relative;
+  left:-9rem;
+  color: #F83F23;
+}
 
 #message {
   padding: 12px;
