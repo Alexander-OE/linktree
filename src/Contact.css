@@ -1,0 +1,132 @@
+form {
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  position: relative;
+  left: 24.7rem;
+  margin-top: 106px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #475467;
+  text-align: center;
+}
+.contact {
+  margin-bottom: 48px;
+}
+
+#first__name {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.first__input,
+.last__input {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+#last__name {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 24px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #344054;
+  margin-bottom: 6px;
+}
+
+.text {
+  display: flex;
+  position: relative;
+  left: 24.6rem;
+  margin-bottom: 24px;
+}
+
+/* ######## Email ########### */
+
+#email {
+  position: relative;
+  left: 24.6rem;
+  margin-bottom: 24px;
+}
+
+.email__input {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 668px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+/* ####### Message ############# */
+
+.group {
+  position: relative;
+  left: 24.6rem;
+  margin-bottom: 24px;
+}
+
+#message {
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* ########### CheckBox #########*/
+.check {
+  display: flex;
+  justify-content: center;
+  padding-right: 3rem;
+  margin-bottom: 35px;
+}
+
+.check__box {
+  margin-right: 12px;
+  color: #d0d5dd;
+  /* border-radius: 6px; */
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475467;
+}
+
+/* ######### button ################ */
+
+#btn__submit {
+  position: relative;
+  left: 24.6rem;
+  padding: 12px 303px;
+  margin-bottom: 100px;
+  background-color: #1570ef;
+  border: 1px solid #1570ef;
+  color: #e2e7f0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
