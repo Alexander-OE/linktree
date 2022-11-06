@@ -370,6 +370,11 @@ h5 {
   margin-left: 2.4rem;
 }
 
+.error-text.invalid{
+  position: relative;
+  left:-6rem;
+  color: #F83F23;
+}
   #btn__submit {
     position: relative;
     left: 3rem;
